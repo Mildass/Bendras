@@ -4,17 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <header> Milda 
-        <div id="filter">
-            Filtras
-        </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><h1>Vaisių ir daržovių gidas</h1></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pasirinkite
+                    </a>
+                    <ul id="select" class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Vaisiai</a></li>
+                      <li><a class="dropdown-item" href="#">Daržovės</a></li>
+                      <li><a class="dropdown-item" href="#">Kiti ne vaisiai</a></li>
+                      <li><a class="dropdown-item" href="#">Kitos ne daržovės</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <div>
-            Milda Vaisiai
+        <div class="container">
+            <div class="row">
+            <div class="card apple" id=vaisius style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Obuoliai</h5>
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item">Didžiausi augintojai:
+            <ul>
+            <li>Kinija</li>
+            <li>Indija</li>
+            <li>Rusija</li>
+            </ul>
+            </li>
+            <li class="list-group-item">Maistinės savybės (100g):
+            <ul>
+            <li>Baltymai: 2.2g</li>
+            <li>Riebalai: 0.1g</li>
+            <li>Angliavandeniai: 15.4g</li>
+            <li>Kalorijos: 75kcal</li>
+            </ul>
+            <li class="list-group-item">Vidutinis svoris: 174g</li>
+            <li class="list-group-item">Nauda sveikatai: padeda sergant virškinamojo trakto ligomis.</li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="card lemon" id=vaisius style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1587496679742-bad502958fbf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Citrinos</h5>
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item">Didžiausi augintojai:
+            <ul>
+            <li>Kinija</li>
+            <li>Indija</li>
+            <li>Rusija</li>
+            </ul>
+            </li>
+            <li class="list-group-item">Maistinės savybės (100g):
+            <ul>
+            <li>Baltymai: 2.2g</li>
+            <li>Riebalai: 0.1g</li>
+            <li>Angliavandeniai: 15.4g</li>
+            <li>Kalorijos: 75kcal</li>
+            </ul>
+            <li class="list-group-item">Vidutinis svoris: 174g</li>
+            <li class="list-group-item">Nauda sveikatai: padeda sergant virškinamojo trakto ligomis.</li>
+            </ul>
+            </div>
+        </div>
+            
+        <div class="card persimmon" id=vaisius style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1604718950414-b6e27b8c717f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1044&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Persimonai</h5>
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item">Didžiausi augintojai:
+            <ul>
+            <li>Kinija</li>
+            <li>Indija</li>
+            <li>Rusija</li>
+            </ul>
+            </li>
+            <li class="list-group-item">Maistinės savybės (100g):
+            <ul>
+            <li>Baltymai: 2.2g</li>
+            <li>Riebalai: 0.1g</li>
+            <li>Angliavandeniai: 15.4g</li>
+            <li>Kalorijos: 75kcal</li>
+            </ul>
+            <li class="list-group-item">Vidutinis svoris: 174g</li>
+            <li class="list-group-item">Nauda sveikatai: padeda sergant virškinamojo trakto ligomis.</li>
+            </ul>
+            </div>
         </div>
         <div>
             Ugne Darzoves
@@ -26,5 +122,9 @@
             Paieska
         </div>
     </footer>
+
+     <!-- Option 1: Bootstrap Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+     <script src="main.js"></script>
 </body>
 </html>
