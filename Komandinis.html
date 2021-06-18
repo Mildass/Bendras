@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
@@ -16,15 +17,97 @@
         <div>
             Milda Vaisiai
         </div>
-        <div>
+        <div class="container">
             Ugne Darzoves
-        </div>
+            <div class="row">
+            <div class="card potato" id="darzove" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bulvės</h5>
+                    </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Didžiausi augintojai:
+                    <ul>
+                        <li>Kinija</li>
+                        <li>Indija</li>
+                        <li>Rusija</li>
+                    </ul>
+                  </li>
+                  <li class="list-group-item">Maistinės savybės (100g):
+                      <ul>
+                      <li>Baltymai: 2.2g</li>
+                      <li>Riebalai: 0.1g</li>
+                      <li>Angliavandeniai: 15.4g</li>
+                      <li>Kalorijos: 75kcal</li>
+                  </ul>
+                  <li class="list-group-item">Vidutinis svoris: 174g</li>
+                  <li class="list-group-item">Nauda sveikatai: padeda sergant virškinamojo trakto ligomis.</li>
+                </ul>
+              </div>
+
+              <div class="card pumpkin" id="darzove" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1538944268052-d3caeeaeb707?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Moliūgai</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Didžiausi augintojai:
+                      <ul>
+                          <li>Kinija</li>
+                          <li>Indija</li>
+                          <li>Ukraina</li>
+                      </ul>
+                    </li>
+                    <li class="list-group-item">Maistinės savybės (100g):
+                        <ul>
+                        <li>Baltymai: 1g</li>
+                        <li>Riebalai: 0.1g</li>
+                        <li>Angliavandeniai: 6.5g</li>
+                        <li>Kalorijos: 26kcal</li>
+                    </ul>
+                    <li class="list-group-item">Vidutinis svoris: 6kg</li>
+                    <li class="list-group-item">Nauda sveikatai: padeda regėjimui bei padeda mažinti kraujospūdį.</li>
+                  </ul>
+                </div>
+
+              <div class="card eggplant" id="darzove" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1613881553903-4543f5f2cac9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Baklažanai</h5>
+                  </div>
+                
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Didžiausi augintojai:
+                      <ul>
+                          <li>Kinija</li>
+                          <li>Indija</li>
+                          <li>Egiptas</li>
+                      </ul>
+                    </li>
+                    <li class="list-group-item">Maistinės savybės (100g):
+                        <ul>
+                        <li>Baltymai: 0.98g</li>
+                        <li>Riebalai: 0.18g</li>
+                        <li>Angliavandeniai: 5.88g</li>
+                        <li>Kalorijos: 25kcal</li>
+                    </ul>
+                    <li class="list-group-item">Vidutinis svoris: 550g</li>
+                    <li class="list-group-item">Nauda sveikatai: padeda užkirsti kelią cholesterolio absorbavimui.</li>
+                  </ul>
+                </div>
+            
     </main>
     <footer>
         Ugne
-        <div id="search">
-            Paieska
-        </div>
+            <form id="search">
+                <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                  <label for="searchfield" class="form-label">Paieška</label>
+                  <input type="text" class="form-control" id="search">
+                </div>
+            </div>
+                <button type="submit" class="btn btn-primary">Ieškoti</button> 
+        </form>
     </footer>
 </body>
 </html>
