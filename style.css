@@ -1,5 +1,13 @@
 
+
 /* Filtro klase */
 .nematomas {
     display: none;
 }
+.container-fluid{
+    margin: 0 30em;
+}
+.nav-link{
+    margin: 0 10em;
+}
+  
